@@ -34,10 +34,7 @@ a {
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
 */
-main {
-    max-width: 1200px;
-    margin: auto;
-}
+
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
@@ -69,6 +66,12 @@ main {
     float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
+  }
+
+  .menu {
+    display: flex;
+    float: left;
+    
   }
 
   nav a{
