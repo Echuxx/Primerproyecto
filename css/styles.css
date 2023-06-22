@@ -64,7 +64,7 @@ main {
     display:flex;
     background-color: rgb(255, 255, 255);
     align-items: center;
-    display: flex;
+      display: flex;
     justify-content: center;
     align-items: center;
     
@@ -73,9 +73,6 @@ main {
     float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
-    position: absolute;
-    color: white;
-    left: 25px;
   }
    
   }
