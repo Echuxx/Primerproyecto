@@ -63,18 +63,19 @@ main {
 .flex-container {
     display:flex;
     background-color: rgb(255, 255, 255);
-    align-items: center;
+    align-items: center; 
       display: flex;
     justify-content: center;
     align-items: center;
     
   }
+
   .flex-item {
     float: left;
 	padding: 15px 0 0 20px;
 	text-decoration: none;
-  }
-   
+}
+
   }
 
   nav a{
@@ -159,7 +160,9 @@ text-align: center;
     display: flex;
     justify-content: space-around;
     
-}    
+}   
+
+
 #titulo-footer {
     line-height: 90px;
     color: #fbfbfb;
@@ -181,4 +184,3 @@ text-align: center;
 
 }
 
-#body
